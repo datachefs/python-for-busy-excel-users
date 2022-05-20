@@ -103,6 +103,14 @@ One Excel file with all the data, for pandas lessons
 One Excel per Kitty pirate (because they are such divas)
 
 
+## Pandas
+
+Pandas Tutor
+
+
+- Sync your repo, and check it out online
+
+
 
 - Sync your repo, and check it out online
 
@@ -111,6 +119,4 @@ One Excel per Kitty pirate (because they are such divas)
 - Sync your repo, and check it out online
 
 
-
-- Sync your repo, and check it out online
 
