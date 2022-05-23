@@ -69,3 +69,44 @@ dogs.iloc[0:3, 0:2]
 The same operation using .loc requires you to use the dataframe labels:
 
 dogs.loc['Labrador Retriever':'Beagle', 'grooming':'food_cost']
+
+Filtering 
+
+# Get a Series with the Year data
+baby['Year']
+
+is_2020 = []
+for value in baby['Year']:
+    is_2020.append(value == 2020)
+    
+# Filtering has a shorthand. This computes the same table as the snippet above
+# without using .loc
+baby[baby['Year'] == 2020]
+
+# When you have a long expression, you can wrap it in parentheses, then add
+# line breaks to make it more readable.
+(baby[baby['Year'] == 2020]
+ .sort_values('Count', ascending=False)
+ .head(7) # take the first seven rows
+)
+
+
+Filter: keep only rows with 'Luna' in the Name column.
+Filter: keep only rows with 'F' in the Sex column.
+Slice: keep the Count and Year columns.
+Now, it’s a matter of translating each step into code.
+
+luna = baby[baby['Name'] == 'Luna'] # [1]
+luna = luna[luna['Sex'] == 'F']     # [2]
+luna = luna[['Count', 'Year']]      # [3]
+luna
+
+# Using .query is similar to using .loc with a boolean series. query() has more
+# restrictions on what kinds of filtering you can do but can be convenient as a
+# shorthand. 
+siri = (baby.query('Name == "Siri"')
+        .query('Sex == "F"'))
+px.line(siri, x='Year', y='Count', width=350, height=250)
+
+
+
