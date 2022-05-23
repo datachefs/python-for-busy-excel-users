@@ -109,4 +109,6 @@ siri = (baby.query('Name == "Siri"')
 px.line(siri, x='Year', y='Count', width=350, height=250)
 
 
-
+homework:
+use slashdot:  what do you think?
+do some more googling
