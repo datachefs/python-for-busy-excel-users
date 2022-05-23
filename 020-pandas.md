@@ -41,3 +41,31 @@ http://pandas.pydata.org/pandas-docs/stable/
 
 https://docs.bokeh.org/en/latest/
 
+
+The row labels have a special name. We call them the index of a dataframe. even though the index looks like a column of data, the index really represents row labels, not data. 
+.loc lets you select rows and columns using their labels. For example, to get the data in the row labeled 1 and column labeled Name
+#        The first argument is the row label
+#        ↓
+baby.loc[1, 'Name']
+
+# Shorthand for baby.loc[:, ['Name', 'Count']]
+baby[['Name', 'Count']]
+
+
+Slicing using .iloc works similarly to .loc, except that .iloc uses the positions of rows and columns rather than labels
+
+To get the first three rows and first two columns by position, use .iloc:
+
+dogs.iloc[0:3, 0:2]
+
+grooming	food_cost
+breed		
+Labrador Retriever	weekly	466.0
+German Shepherd	weekly	466.0
+BeaTo get the first three rows and first two columns by position, use .iloc:
+
+dogs.iloc[0:3, 0:2]
+
+The same operation using .loc requires you to use the dataframe labels:
+
+dogs.loc['Labrador Retriever':'Beagle', 'grooming':'food_cost']
