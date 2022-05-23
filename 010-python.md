@@ -61,6 +61,8 @@ Numbers
 - error messages
 - Sync your repo, and check it out online
 
+if then else
+
 Arrays (arrays.py)
 - your crew's names
 - Working with individual members of array
@@ -104,7 +106,13 @@ One Excel per Kitty pirate (because they are such divas)
 
 
 
+homework:  give list of exs, some beginnjgn links (w3, official docs)
+check out basic maths
+search and replace strings
+solit, join, stip, uppercase, lowercase
+reg expression
 
+also, what do you think of quality of w3, docs?
 
 
 ## Pandas
