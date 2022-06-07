@@ -1,5 +1,18 @@
+# Session 3: Methods/Modules, pandas
 
 
+# Methods and Modules
+
+Methods (methods.py)
+- why methods
+- put into method as is
+- my approach: tiny little baby steps: make a very small change, re-run it, make another small change: catch errors right away, less overwhelming (use comments to draft a short plan, then fill out actual code)
+- new version: given list of names, return array of cream consumption per month for 5 months
+- Sync your repo!
+- New version: given list of names, items and categories, number of months, return: Month, name, category, what, amount
+
+Modules (modules.py)
+- Turn into make_data
 
 
 
@@ -8,38 +21,6 @@
 Every row has label, aka index
 - By default number like Excel, but can be  name 
 
-
-faster pandas:
-https://gitlab.com/cheevahagadog/talks-demos-n-such/-/blob/master/PyGotham2019/PyGotham-updated.ipynb
-
-https://www.kaggle.com/code/ceshine/1000x-faster-data-manipulation/notebook
-
-
-https://pandastutor.com/index.html
-- Build sessions around this
-
-[Intro to Data Science](http://www.textbook.ds100.org/ch/06/pandas_subsetting.html)
-- For explainations
-
-https://github.com/aschneiderman/my-little-pandas-cookbook
-
-
-[Effective Pandas](https://youtu.be/UURvPeczxJI)
-
-My [old cookbook](https://nbviewer.org/github/aschneiderman/cookbook-notes/blob/master/cookbook/Pandas_4_Excel_Users.ipynb)
-
-
-https://pandas.pydata.org/docs/user_guide/cookbook.html
-
-https://www.samlau.me
-
-
-
-https://datacarpentry.org/python-ecology-lesson/
-
-http://pandas.pydata.org/pandas-docs/stable/
-
-https://docs.bokeh.org/en/latest/
 
 
 The row labels have a special name. We call them the index of a dataframe. even though the index looks like a column of data, the index really represents row labels, not data. 
@@ -112,3 +93,34 @@ px.line(siri, x='Year', y='Count', width=350, height=250)
 homework:
 use slashdot:  what do you think?
 do some more googling
+
+
+
+
+
+
+Pandas
+
+Load in CSV file
+Print the head
+
+Do I want to do the location stuff?
+Or just go right to the shorthand?
+Maybe copy and paste from the data science book?
+
+In any event:
+show columns
+cheers Rose
+work my way along
+
+Series versus data frames
+the whole weird thing of being billed on numpy
+design for the Finance world by a geek in Finance.
+
+Create some dummy data?
+Pints/month, Brandy, gold, claw score, bitecoins
+
+What else? Maybe just mentioned method chaining?
+
+With bigger data sets, redefining as types really matters
+
