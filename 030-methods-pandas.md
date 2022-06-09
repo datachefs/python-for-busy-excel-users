@@ -1,19 +1,8 @@
-# Session 3: Methods/Modules, pandas
+# Session 3: Modules, pandas
 
+ ## Modules
 
-# Methods and Modules
-
-Methods (methods.py)
-- why methods
-- put into method as is
-- my approach: tiny little baby steps: make a very small change, re-run it, make another small change: catch errors right away, less overwhelming (use comments to draft a short plan, then fill out actual code)
-- new version: given list of names, return array of cream consumption per month for 5 months
-- Sync your repo!
-- New version: given list of names, items and categories, number of months, return: Month, name, category, what, amount
-
-Modules (modules.py)
-- Turn into make_data
-
+Creating Your Own Module
 
 
 # pandas
