@@ -25,25 +25,6 @@ Dictionaries, a.k.a. Associative Arrays
 - Loop through and create {} with name, amount of cream
 
 
-## Methods and Modules
-
-Methods (methods.py)
-- why methods
-- put into method as is
-- my approach: tiny little baby steps: make a very small change, re-run it, make another small change: catch errors right away, less overwhelming (use comments to draft a short plan, then fill out actual code)
-- new version: given list of names, return array of cream consumption per month for 5 months
-- Sync your repo!
-- New version: given list of names, items and categories, number of months, return: Month, name, category, what, amount
-
-Sample code from a different example:
-def my_function(x):
-  return 5 * x
-
-print(my_function(3))
-
-def my_function(country = "Norway"):
-
-
 
 ## Libraries (libraries-excel.py)
 
